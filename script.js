@@ -204,11 +204,35 @@ const arrayClone = (arr) => {
 // }
 
 
-//<<< CuRRENT DATE >>>
+//<<< First element in array >>>
 
-var date = new Date();
+// const getFirstValue= (arr) =>{
+//     return arr[0];
+// }
 
-console.log(date);
+// console.log(getFirstValue([1, 2, 3])); =>1
+// console.log(getFirstValue([2, 5, 6]));=>2
+
+
+//<<<<>>>
+// const getVoteCount = {
+//     upvotes: 13,
+//     downvotes: 2
+// }
+
+// const obj = (num1, num2) => {
+//     return getVoteCount.upvotes - getVoteCount.downvotes;
+// };
+
+// console.log(obj()); => 
+
+
+//<<<<<>>>>>>
+
+
+
+
+
 
 
 
