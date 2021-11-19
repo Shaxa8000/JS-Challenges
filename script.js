@@ -128,9 +128,9 @@
 // <<< CLONING ARRAY>>>
 
 
-const arrayClone = (arr) => {
-    return arr.slice(0);
-}
+// const arrayClone = (arr) => {
+    // return arr.slice(0);
+// }
 
 // console.log(arrayClone([1, 2, 3, 4]));
 
@@ -231,45 +231,71 @@ const arrayClone = (arr) => {
 
 
 // unnamed
-let Rectangle = class {
-  constructor(height, width) {
-    this.height = height;
-    this.width = width;
-  }
-};
-console.log(Rectangle.name);
-// output: "Rectangle"
+// let Rectangle = class {
+//   constructor(height, width) {
+//     this.height = height;
+//     this.width = width;
+//   }
+// };
+// console.log(Rectangle.name);
+// // output: "Rectangle"
 
-// named
-let Rectangle = class Rectangle2 {
-  constructor(height, width) {
-    this.height = height;
-    this.width = width;
-  }
-};
-console.log(Rectangle.name);
-// output: "Rectangle2"
+// // named
+// let Rectangle = class Rectangle2 {
+//   constructor(height, width) {
+//     this.height = height;
+//     this.width = width;
+//   }
+// };
+// console.log(Rectangle.name);
+// // output: "Rectangle2"
 
 
 
-class Rectangle {
-  constructor(height, width) {
-    this.height = height;
-    this.width = width;
-  }
-  // Getter
-  get area() {
-    return this.calcArea();
-  }
-  // Method
-  calcArea() {
-    return this.height * this.width;
-  }
-}
+// class Rectangle {
+//   constructor(height, width) {
+//     this.height = height;
+//     this.width = width;
+//   }
+//   // Getter
+//   get area() {
+//     return this.calcArea();
+//   }
+//   // Method
+//   calcArea() {
+//     return this.height * this.width;
+//   }
+// }
 
-const square = new Rectangle(10, 10);
+// const square = new Rectangle(10, 10);
 
-console.log(square.area); // 100
+// console.log(square.area); // 100
+
+
+// Odd and Even numbers
+
+
+// for (let i = 0; i <= 100; i++) {
+//     if (i === 0) {
+//         console.log(i + " is even")
+//     } if (i % 2 === 0) {
+//         console.log(i + " is even")
+//     } else {
+//         console.log(i + " is Odd");
+//     }
+// }
+
+//  ADDING REVERSED AND DEFAULT VALUE
+// reversStr = (str) => {
+//     var strSplit = str.split("");
+//     var strReverse = strSplit.reverse();
+//     var strJoin = strReverse.join('');
+//     var strConcat = strJoin.concat(str);
+//     return strConcat
+// }
+// console.log(reversStr("Hello"));
+
+
 
 
 
